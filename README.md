@@ -7,4 +7,8 @@ Referencing all programming book practices I've completed. Books are grouped by 
 
 ## Helpful Resources
 
-### [RunJS](https://runjs.app/)
+### JavaScript Specific Environments
+#### [RunJS](https://runjs.app/)
+
+### Markdown
+#### [Markdown Guide's "Basic Syntax"](https://www.markdownguide.org/basic-syntax/)
