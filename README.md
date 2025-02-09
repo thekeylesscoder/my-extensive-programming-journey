@@ -5,7 +5,11 @@ Referencing all programming book practices I've completed. Books are grouped by 
 
 ### [Eloquent JavaScript, 3rd Edition](https://eloquentjavascript.net/3rd_edition/) by Marijn Haverbeke
 
-## Helpful Resources
+#### Chapter 1
+
+GateOverflow's ["The binary number 10011101 is equal to the hexadecimal number"](https://gateoverflow.in/45601/the-binary-number-10011101-is-equal-to-the-hexadecimal-number): Ensuring example calculation of 157 as a binary number was correct.
+
+## Helpful General Resources
 
 ### JavaScript Specific Environments
 #### [RunJS](https://runjs.app/)
