@@ -12,3 +12,6 @@ Referencing all programming book practices I've completed. Books are grouped by 
 
 ### Markdown
 #### [Markdown Guide's "Basic Syntax"](https://www.markdownguide.org/basic-syntax/)
+
+#### StackOverflow
+[How to add new line in Markdown presentation?](https://stackoverflow.com/questions/33191744/how-to-add-new-line-in-markdown-presentation)
