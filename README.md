@@ -16,6 +16,7 @@ GateOverflow's ["The binary number 10011101 is equal to the hexadecimal number"]
 
 ### Markdown
 #### [Markdown Guide's "Basic Syntax"](https://www.markdownguide.org/basic-syntax/)
+#### [Archer Reilly's Writing Mathematic Fomulars in Markdown](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/)
 
 #### StackOverflow
 [How to add new line in Markdown presentation?](https://stackoverflow.com/questions/33191744/how-to-add-new-line-in-markdown-presentation)
