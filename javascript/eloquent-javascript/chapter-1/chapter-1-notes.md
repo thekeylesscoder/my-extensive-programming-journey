@@ -22,3 +22,4 @@
   - Be aware of precision. Whole numbers smaller than 9 quadrillion tend to be, whereas fractional numbers aren't.
 - ***Arithmetic***
   - This is the usual direction people go with when working with numbers - take two or more numbers and perform some operation on them.
+  - Some examples of operators are + (plus) and * (multiply). 
