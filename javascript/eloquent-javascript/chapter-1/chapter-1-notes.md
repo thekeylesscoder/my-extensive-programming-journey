@@ -22,4 +22,5 @@
   - Be aware of precision. Whole numbers smaller than 9 quadrillion tend to be, whereas fractional numbers aren't.
 - ***Arithmetic***
   - This is the usual direction people go with when working with numbers - take two or more numbers and perform some operation on them.
-  - Some examples of operators are + (plus) and * (multiply). 
+  - Some examples of operators are + (plus); * (multiply); - (subtract); and / (divide). Some equations may use () and may be helpful to ensure that a specific operation is performed first. Otherwise, something known as **precedence** ensures that the calculation is performed in a specific way.
+    - Multiplication and division have a higher precedence than addition and subtraction. If operators appear next to each other, they are applied left to right. 
