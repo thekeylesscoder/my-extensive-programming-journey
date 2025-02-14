@@ -23,4 +23,11 @@
 - ***Arithmetic***
   - This is the usual direction people go with when working with numbers - take two or more numbers and perform some operation on them.
   - Some examples of operators are + (plus); * (multiply); - (subtract); and / (divide). Some equations may use () and may be helpful to ensure that a specific operation is performed first. Otherwise, something known as **precedence** ensures that the calculation is performed in a specific way.
-    - Multiplication and division have a higher precedence than addition and subtraction. If operators appear next to each other, they are applied left to right. 
+    - Multiplication and division have a higher precedence than addition and subtraction. If operators appear next to each other, they are applied left to right.
+      - Readers are advised if there's doubt about a specific calculation to use parentheses.
+    - The last operator is the remainder operation, %, or modulo. This is what's left behind after X is divided by Y. (An example of this is 10 % 5 is 0, or 385 % 3 is 3.)
+- ***Special Numbers***
+  - Values that don't act like regular numbers but are still seen as so are Infinity and -Infinity. Any values calculated by either version of Infinity end up as NaN (not a number). Some examples of this that are provided in the text are Infinity - Infinity or 0/0.
+- ***Strings***
+  - This data type represents text and use quotes to enclose the values (``, "", and '').
+  - incl/what 
