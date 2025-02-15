@@ -29,5 +29,9 @@
 - ***Special Numbers***
   - Values that don't act like regular numbers but are still seen as so are Infinity and -Infinity. Any values calculated by either version of Infinity end up as NaN (not a number). Some examples of this that are provided in the text are Infinity - Infinity or 0/0.
 - ***Strings***
-  - This data type represents text and use quotes to enclose the values (``, "", and '').
-  - incl/what 
+  - This data type represents text and use quotes to enclose the values (``, "", and ''). It doesn't matter which type of quotes you use as long as they match.
+  - Most items will display properly within quotes but some can be difficult. **Newlines**, what displays when you use the ENTER key, can display properly when the backtick ` is used.
+  - Ensuring that a specific character is displayed properly means having to use the backslash \ with quoted text, known as ***escaping*** a character. (Compare this to using a backslash alone, where the backslash will be included as well.)
+    - Example: Outputing "I am a string\" will include the last character, whereas using the reserved \n in the same statement will include a newline afterwards.
+    - Additional Example: "Give me some space\tBefore telling me anything" will display this statement with a tab character.
+  - In case you want to display the newline, tab, or other similar symbol with its syntax, you can include two backslashes, which 'cancels' the functionality of the first backslash.
