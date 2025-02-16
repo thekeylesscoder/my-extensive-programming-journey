@@ -36,4 +36,9 @@
     - Additional Example: "Give me some space\tBefore telling me anything" will display this statement with a tab character.
   - In case you want to display the newline, tab, or other similar symbol with its syntax, you can include two backslashes, which 'cancels' the functionality of the first backslash.
     - Book Example: "A newline character is written like \"\\n\"."
-  - Just like numbers, strings are also translated as bits so the computer can process them. JavaScript uses a standard called *Unicode* to do so, giving numbers to every character needed, even in different languages. Since every character has a number, strings can be described as numbers.   
+  - Just like numbers, strings are also translated as bits so the computer can process them. JavaScript uses a standard called *Unicode* to do so, giving numbers to every character needed, even in different languages. Since every character has a number, strings can be described as numbers. JavaScript does this with one issue - it uses 16 bits for each string, or about 2<sup>16</sup> characters. Unicode has more characters though, so some, like emoji, take up much more space. This is discussed in Chapter 5.
+  - Mathematical applications can't be applied to strings, but using the + operator adds values together.
+    - Example: "con" + "cat" + "e" + "nate" displays "concatenate"
+  - Other ***functions***, or ***methods*** can be used on strings, which will be discussed more in Chapter 4.
+  - There isn't much difference between strings that use single or double quotes, except the quote version needed to escape from them. The backtick quote, `, is able to complete some other tasks, like using span across lines, or embed other values. In the below example, anything included within the ${} syntax results in a computation, string conversion, and embedded value.
+    - Example: `half of 100 is ${100 / 2}`
