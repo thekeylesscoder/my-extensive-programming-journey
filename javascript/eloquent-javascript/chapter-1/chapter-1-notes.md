@@ -42,3 +42,16 @@
   - Other ***functions***, or ***methods*** can be used on strings, which will be discussed more in Chapter 4.
   - There isn't much difference between strings that use single or double quotes, except the quote version needed to escape from them. The backtick quote, `, is able to complete some other tasks, like using span across lines, or embed other values. In the below example, anything included within the ${} syntax results in a computation, string conversion, and embedded value.
     - Example: `half of 100 is ${100 / 2}`
+- ***Unary Operators***
+  - Operators can also be represented as words rather than symbols.
+    - An example of this is the *typeof* operator that gives you the value type as a string for whatever input is given.
+      - Examples `console.log(typeof 4.5)` and `console.log(typeof "x")` will give number and string, respectively.
+    - `console.log` is often used to see the result of various calculations and will be revisited in future examples in the next chapter.
+    - There are two types of operators, unary (where only one value is taken) and binary (where two are taken). One exception of an operator being both is the - operator (it can be used to negate a result).
+      - Example: `console.log(- (3 - 6))` results in `-3`
+- ***Boolean Values***
+  - For a value where a value can be either or a single value, use Boolean values (often usually seen with values like "on/off" or "yes/no", but usually represented as "true"/"false").
+  - ***Comparison***
+    - The example provided compares whether a number is greater than or less than another (`console.log(100 > 99)` results in true, whereas `console.log(100 < 99)` is false. Another similar example given is seeing the values of strings. JavaScript does this by comparing the Unicode values of each character from left to right. (Note that uppercase letters have a lesser value than lowercase ones.)
+    - The other operators that can be used are >=/<= (greater than/less than or equal to); == (equal to); and != (not equal to).
+      - Note the only value not equal to itself is NaN as it can represent any value that doesn't make sense.
