@@ -55,3 +55,12 @@
     - The example provided compares whether a number is greater than or less than another (`console.log(100 > 99)` results in true, whereas `console.log(100 < 99)` is false. Another similar example given is seeing the values of strings. JavaScript does this by comparing the Unicode values of each character from left to right. (Note that uppercase letters have a lesser value than lowercase ones.)
     - The other operators that can be used are >=/<= (greater than/less than or equal to); == (equal to); and != (not equal to).
       - Note the only value not equal to itself is NaN as it can represent any value that doesn't make sense.
+- ***Logical Operators***
+  - Some operations can also be applied to Boolean values, or, as the author mentions, to reason about them.
+    - The *and* operator (&&) is only true when both values are true.
+    - The *or* operator, ||, is true if either one value is true.
+    - The *not* operator, !, reverses the final value.
+  - It might be difficult to tell when to use parentheses, but the author mentions the following order of precedence, from lowest to highest, which assists in not having to include these:
+    - ||
+    - &&
+    - Comparison
