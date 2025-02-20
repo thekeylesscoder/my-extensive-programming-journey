@@ -64,3 +64,7 @@
     - ||
     - &&
     - Comparison
+  - The final logical operator is ternary, the ***conditional operator*** and uses ? and :. Whatever is included to the question mark's left decides the output. The middle value is chosen when this value is true, and the latter when false.
+    - Example: `console.log(false ? 3 : 4); // the result would be 4` 
+- Empty Values
+-   When there isn't a meaningful value present (but still a value, which is why some operations show this value), you can express it using `null` and `undefined`. There really isn't much difference between them so the author suggests using them interchagably in most cases.
