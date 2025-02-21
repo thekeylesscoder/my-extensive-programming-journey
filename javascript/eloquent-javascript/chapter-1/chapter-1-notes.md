@@ -66,5 +66,15 @@
     - Comparison
   - The final logical operator is ternary, the ***conditional operator*** and uses ? and :. Whatever is included to the question mark's left decides the output. The middle value is chosen when this value is true, and the latter when false.
     - Example: `console.log(false ? 3 : 4); // the result would be 4` 
-- Empty Values
--   When there isn't a meaningful value present (but still a value, which is why some operations show this value), you can express it using `null` and `undefined`. There really isn't much difference between them so the author suggests using them interchagably in most cases.
+- ***Empty Values***
+  - When there isn't a meaningful value present (but still a value, which is why some operations show this value), you can express it using `null` and `undefined`. There really isn't much difference between them so the author suggests using them interchagably in most cases.
+- ***Automatic Type Conversion***
+  - JavaScript will do its best to accomodate all programs, even ones that don't seem to make sense. Some of the examples he gives includes:
+    - `console.log(8 * null) // 0`
+    - `console.log("5" - 1) // 4`
+    - `console.log("5" + 1) // 51`
+    - `console.log("five" * 2) //NaN`
+    - `console.log(false == 0) //true`
+  - When operators get applied to an incorrect value, JavaScript quietly converts it to the type it needs to execute properly (even if it's not want you wanted with the program)! This process is known as *type conversion*.
+  - Values that don't clearly convert to numbers become NaN, and will continue to produce this value as other operators are applied to it. If a calculation continues to evaluate as NaN, it's possible type conversion happened.
+  - Anytime == is used to compare values, everything should evaluate to true for the same values, except for NaN. However, differing types results in JavaScript once again behaving strangely (usually trying to convert one value into the other value's type).
