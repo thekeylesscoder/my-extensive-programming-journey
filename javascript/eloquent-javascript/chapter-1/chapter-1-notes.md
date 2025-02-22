@@ -77,4 +77,9 @@
     - `console.log(false == 0) //true`
   - When operators get applied to an incorrect value, JavaScript quietly converts it to the type it needs to execute properly (even if it's not want you wanted with the program)! This process is known as *type conversion*.
   - Values that don't clearly convert to numbers become NaN, and will continue to produce this value as other operators are applied to it. If a calculation continues to evaluate as NaN, it's possible type conversion happened.
-  - Anytime == is used to compare values, everything should evaluate to true for the same values, except for NaN. However, differing types results in JavaScript once again behaving strangely (usually trying to convert one value into the other value's type).
+  - Anytime == is used to compare values, everything should evaluate to true for the same values, except for NaN. However, differing types results in JavaScript once again behaving strangely (usually trying to convert one value into the other value's type). Note that if null and undefined are compared, it will result as a true value. This can be helpful.
+  - When you want to test whether something is exactly equal to `false`, you need to be careful. Using binary comparison will depend on automatic type conversion, so to ensure it doesn't happen, the precisely equals to (===) or the not precisely equal to (!==) operators can be used.
+    - Using "" == false ends up as true versus "" === false, which results in false.
+  - He recommends using the binary operators when the probability of the answer being true is false but the tertiary operators for defensive programming.
+- ***Short-Circuiting of Logical Operators***
+  - The && and || operators convert their left side values to Booleans to make a decision. Depending on the used operator and conversion result, the right hand or original left value.
