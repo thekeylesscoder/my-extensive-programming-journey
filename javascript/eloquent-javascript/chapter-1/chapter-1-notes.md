@@ -82,4 +82,8 @@
     - Using "" == false ends up as true versus "" === false, which results in false.
   - He recommends using the binary operators when the probability of the answer being true is false but the tertiary operators for defensive programming.
 - ***Short-Circuiting of Logical Operators***
-  - The && and || operators convert their left side values to Booleans to make a decision. Depending on the used operator and conversion result, the right hand or original left value.
+  - The && and || operators convert their left side values to Booleans to make a decision. Depending on the used operator and conversion result, the right hand or original left value will be returned.
+    - Examples: The value from the left will be returned by || if it can be converted to true. If not, it will return the value on the right. It reacts relatively well for Booleans and other type values.
+  - This can be used to have a default value choosen. The example he gives is the or operator can be used if you have a potentially empty value first. The replacement value will be given if the empty value is false. Note this is because string and number conversion to Booleans (o, NaN, and empty strings) are false, while others are true.
+  - The and operator is the opposite - if the left value is converted to false, that value is given, otherwise returning the righthand value.
+  - JavaScript does something known as *short-circuit evulation*. This means that the righthand side is only evaluated as needed.
