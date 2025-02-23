@@ -86,4 +86,8 @@
     - Examples: The value from the left will be returned by || if it can be converted to true. If not, it will return the value on the right. It reacts relatively well for Booleans and other type values.
   - This can be used to have a default value choosen. The example he gives is the or operator can be used if you have a potentially empty value first. The replacement value will be given if the empty value is false. Note this is because string and number conversion to Booleans (o, NaN, and empty strings) are false, while others are true.
   - The and operator is the opposite - if the left value is converted to false, that value is given, otherwise returning the righthand value.
-  - JavaScript does something known as *short-circuit evulation*. This means that the righthand side is only evaluated as needed.
+  - JavaScript does something known as *short-circuit evulation*. This means that the righthand side is only evaluated as needed. An operator that uses a similar execution is the conditional operator - the one that's selected is the one that has its value changed (from the second and third options).
+- ***Summary***
+  - The four values discussed were numbers, strings, Booleans, and undefined.
+  - They are declared if their name or value is typed.
+  - They can be changed and combined via operators - binary arithmetic, as well as comparison and logical operators; string concatenation; unary and ternary  operators. These can easily be used to have similar functions as a calculator. Additional functionality to build programs will be discussed in the next chapter.
