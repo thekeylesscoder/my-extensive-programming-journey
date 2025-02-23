@@ -4,6 +4,7 @@ Referencing all programming book practices I've completed. Books are grouped by 
 ## Git
 
 GitHub Doc's [Moving a file to a new location](https://docs.github.com/en/repositories/working-with-files/managing-files/moving-a-file-to-a-new-location)
+MacWorld's [Master the macOS command line: How to navigate files and folders in Terminal](https://www.macworld.com/article/221277/command-line-navigating-files-folders-mac-terminal.html)
 
 ## JavaScript
 
