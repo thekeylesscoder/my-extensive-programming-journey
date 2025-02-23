@@ -1,6 +1,10 @@
 # My Extensive Programming Journey
 Referencing all programming book practices I've completed. Books are grouped by language rather than the fields they're traditionally used (such as web or software development) for ease of access. 
 
+## Git
+
+GitHub Doc's [Moving a file to a new location](https://docs.github.com/en/repositories/working-with-files/managing-files/moving-a-file-to-a-new-location)
+
 ## JavaScript
 
 ### [Eloquent JavaScript, 3rd Edition](https://eloquentjavascript.net/3rd_edition/) by Marijn Haverbeke
