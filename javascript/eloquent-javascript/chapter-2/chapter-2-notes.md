@@ -14,4 +14,9 @@
 - The previous chapter only discussed old values and how to create new ones from old ones. A few concerns to be aware of based on current knowledge:
   - Old values can't be changed once defined.
   - New values have to be used after being made or will vanish.
-- This issue is resolved through *bindings*, also known as *variables*.
+- This issue is resolved through *bindings*, also known as *variables*. The binding's structure starts with a keyword, `let`; the binding's name; and the optional immediate value that's set with an equal sign and the value. Bindings' names can be used as expressions, where the value is the current value. This value can always change by using the equal sign with the new value.
+- The author compares bindings to tentacles as they only grasp, not contain, values. (Note two individual bindings can actually be equal to the same value.)
+  - Programs can only access values it still can reference.
+- Bindings without values hold nothing, so empty bindings will be see as `undefined` until they equal something.
+- You can define multiple bindings with a single `let` statement, but the values need to be separated by commas.
+- Additional keywords to define bindings are `var` and `const`. 
