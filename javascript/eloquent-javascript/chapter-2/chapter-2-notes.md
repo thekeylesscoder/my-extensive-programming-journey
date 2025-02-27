@@ -27,3 +27,7 @@
     - Certain words cannot be used as binding names as they're saved for specific functions in JavaScript. The author lists all the reserved keywords, as seen below:
       - `break case catch class const continue debugger default delete do else enum export extends false finally for function if implements import interface in instanceof let new package private protected public return static super switch this throw true try typeof var void while with yield`
     - He mentions to potentially look out if errors occur because a reserved keyword is being used.
+- ***The Environment***
+  - The *environment* is all bindings and values that exist during a current time. Even if no created bindings exist, there are other ones that exist within the system.
+- ***Functions***
+  - Many values have a type known as *function*, or a program that's wrapped in a value. The value that encases the program can then be applied to have the program run. The example used by the author is the binding prompt, which has a function holding a dialog box asking for user input.
