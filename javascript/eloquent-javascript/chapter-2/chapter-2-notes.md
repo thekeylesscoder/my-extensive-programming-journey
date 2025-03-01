@@ -31,3 +31,11 @@
   - The *environment* is all bindings and values that exist during a current time. Even if no created bindings exist, there are other ones that exist within the system.
 - ***Functions***
   - Many values have a type known as *function*, or a program that's wrapped in a value. The value that encases the program can then be applied to have the program run. The example used by the author is the binding prompt, which has a function holding a dialog box asking for user input.
+    - `prompt() //The text goes inside of the parentheses with quotation marks` 
+  - When a function runs, it's known as invoking; calling; or applying. Functions can run after you include parentheses after including an expression, and usually use the binding name. The information used in functions are known as *arguments*. Depending on the function, different numbers or arguments may be needed.
+  - The above function is not used often in modern web programming unless you're testing or making toy programs.
+- ***The console.log() Function***
+  - The function used in book examples to show text was `console.log()`. JavaScript and its variant languages have this function that prints out the input to another device (i.e. browsers show output on the console, which can be shown through its Developer Tools option). Unlike the example included, the output of the program is shown after the example.
+  - The `console.log` name includes a period because it is a binding known as `console` that finds a `log` property. This is further discussed in Chapter 4 and this syntax is not allowed for regular bindings.
+- ***Return Values***
+  - Things that are shown or happen are known as *side effects*, which can be helpful. 
