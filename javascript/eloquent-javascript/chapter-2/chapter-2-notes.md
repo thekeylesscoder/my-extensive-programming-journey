@@ -42,4 +42,8 @@
     - Example: `console.log(Math.max(2,4) \\returns largest value`
   - The value that is ultimately shown is *returned*.
   - Chapter 3 will go more into creating our own functions.
-- ***Control Flow*** 
+- ***Control Flow***
+  - Statements are executed from the top to the bottom.
+  - The author provides the below example of a *straight-line control flow* program:
+    - `let theNumber = Number(prompt("Pick a number"));
+    - console.log("Your number is the square root of " + theNumber * theNumber);`
