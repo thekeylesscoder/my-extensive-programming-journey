@@ -47,3 +47,5 @@
   - The author provides the below example of a *straight-line control flow* program:
     - `let theNumber = Number(prompt("Pick a number"));
     - console.log("Your number is the square root of " + theNumber * theNumber);`
+- ***Conditional Execution***
+  - *Conditional execution* happens when conditions are associated with the action a program should take. These are determined with the reserved keyword *if*. Input that doesn't meet the conditions of a program will be ignored and unexecuted.
