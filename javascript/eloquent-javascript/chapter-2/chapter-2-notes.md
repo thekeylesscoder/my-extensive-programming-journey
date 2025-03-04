@@ -48,4 +48,6 @@
     - `let theNumber = Number(prompt("Pick a number"));
     - console.log("Your number is the square root of " + theNumber * theNumber);`
 - ***Conditional Execution***
-  - *Conditional execution* happens when conditions are associated with the action a program should take. These are determined with the reserved keyword *if*. Input that doesn't meet the conditions of a program will be ignored and unexecuted.
+  - *Conditional execution* happens when conditions are associated with the action a program should take. These are determined with the reserved keyword *if*. Input that doesn't meet the conditions of a program will be ignored and unexecuted, which is defined after using `if`, where the condition is between parentheses and the item the program should execute.
+  - A predefined function in JavaScript is `Number.isNan`, which is only true when arguments are `NaN` and strings aren't real numbers.
+  - You can use either brackets, {}, or parentheses to include more than one statement. 
