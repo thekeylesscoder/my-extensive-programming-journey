@@ -50,4 +50,6 @@
 - ***Conditional Execution***
   - *Conditional execution* happens when conditions are associated with the action a program should take. These are determined with the reserved keyword *if*. Input that doesn't meet the conditions of a program will be ignored and unexecuted, which is defined after using `if`, where the condition is between parentheses and the item the program should execute.
   - A predefined function in JavaScript is `Number.isNan`, which is only true when arguments are `NaN` and strings aren't real numbers.
-  - You can use either brackets, {}, or parentheses to include more than one statement. 
+  - You can use either brackets, {}, or parentheses to include more than one statement. Many of the examples will include these except a few examples where one-liners may be included on the same line (an example from the text is included below):
+    - `if (1 + 1 == 2) console.log("It's true");`
+  - Code will usually include code for both true conditions and the other cases. These follow after the initial condition. These can be added on using if (first case); else (only one additional case); and else if (multiple additional cases). He includes additional examples below:
