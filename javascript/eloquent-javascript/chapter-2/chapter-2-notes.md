@@ -52,4 +52,20 @@
   - A predefined function in JavaScript is `Number.isNan`, which is only true when arguments are `NaN` and strings aren't real numbers.
   - You can use either brackets, {}, or parentheses to include more than one statement. Many of the examples will include these except a few examples where one-liners may be included on the same line (an example from the text is included below):
     - `if (1 + 1 == 2) console.log("It's true");`
-  - Code will usually include code for both true conditions and the other cases. These follow after the initial condition. These can be added on using if (first case); else (only one additional case); and else if (multiple additional cases). He includes additional examples below:
+  - Code will usually include code for both true conditions and the other cases. These follow after the initial condition. These can be added on using if (first case); else (only one additional case); and else if (multiple additional cases). He includes additional examples below (the first is pulled from the text, the second is modified ((outputs)) and happens when you have multiple paths):
+    - First Example
+      - `let theNumber = Number(prompt("Pick a number"));`
+      - `if (!Number.isNan(theNumber)) {`
+        - `console.log("Your number is the square root of " + theNumber * theNumber);`
+      - `} else {`
+        - `console.log("Hey. Why didn't you give me a number?;`
+      - `}`
+    - Second Example (Asks the user to input a number and outputs a different message depending on the value the user provides.)
+      - `let num = Number(prompt("Pick a number"));`
+      - `if (num < 0) {`
+        - `console.log("Negative");`
+      - `else if (num > 0) {`
+        - `console.log("Positive");`
+      - `else {`
+        - `console.log("NaN");`
+- ***While and Do Loops*** 
