@@ -68,4 +68,5 @@
         - `console.log("Positive");`
       - `else {`
         - `console.log("NaN");`
-- ***While and Do Loops*** 
+- ***While and Do Loops***
+  - What happens if you want a program that prints a series of numbers, like the even numbers between 0 to 12? You could use the `console.log` function for each number, but it wouldn't be efficient, especially if you need to work with a larger number set. A better alternative would be a *loop*, which runs a piece of code a few times. This also allows us to go back to a previous point in the program and take the same action with the current program's state. He shows a potential solution to the previous problem below:   
