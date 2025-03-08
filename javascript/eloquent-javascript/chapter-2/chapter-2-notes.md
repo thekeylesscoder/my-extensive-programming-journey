@@ -69,4 +69,12 @@
       - `else {`
         - `console.log("NaN");`
 - ***While and Do Loops***
-  - What happens if you want a program that prints a series of numbers, like the even numbers between 0 to 12? You could use the `console.log` function for each number, but it wouldn't be efficient, especially if you need to work with a larger number set. A better alternative would be a *loop*, which runs a piece of code a few times. This also allows us to go back to a previous point in the program and take the same action with the current program's state. He shows a potential solution to the previous problem below:   
+  - What happens if you want a program that prints a series of numbers, like the even numbers between 0 to 12? You could use the `console.log` function for each number, but it wouldn't be efficient, especially if you need to work with a larger number set. A better alternative would be a *loop*, which runs a piece of code a few times. This also allows us to go back to a previous point in the program and take the same action with the current program's state. He shows a potential solution to the previous problem below:
+    - `let number = 0;`
+    - `while (number <= 12) {`
+    - `  console.log(number);`
+    - `  number = number + 2;`
+    - `}`
+  - Any code defined after the predefined keyword `while` ensures code can be looped. As seen in the above example, it's similar to the `if` loop since the structure has parentheses with an enclosing expression and a statement. The statement continues to run if the value produced by the expression converts to a `true` Boolean value.
+  - Another point to note is how the `number` binding can keep track of the program's progress. This value gets updated every time the loop runs and is compared to 12 (the defined number) to see if the program still needs to run.
+  - Now that we understand the basics of the `while` loop, we can easily use it to build other mathematical programs, like the one below that calculates 2 to the 10th power. This one uses two bindings for the answer and a counter to see how much it's been multipled by 2:
