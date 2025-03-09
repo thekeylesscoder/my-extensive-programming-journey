@@ -77,4 +77,27 @@
     - `}`
   - Any code defined after the predefined keyword `while` ensures code can be looped. As seen in the above example, it's similar to the `if` loop since the structure has parentheses with an enclosing expression and a statement. The statement continues to run if the value produced by the expression converts to a `true` Boolean value.
   - Another point to note is how the `number` binding can keep track of the program's progress. This value gets updated every time the loop runs and is compared to 12 (the defined number) to see if the program still needs to run.
-  - Now that we understand the basics of the `while` loop, we can easily use it to build other mathematical programs, like the one below that calculates 2 to the 10th power. This one uses two bindings for the answer and a counter to see how much it's been multipled by 2:
+  - Now that we understand the basics of the `while` loop, we can easily use it to build other mathematical programs, like the one below that calculates 2 to the 10th power. This one uses two bindings for the answer and a counter to see how much it's been multipled by 2 (the bindings get updated if the answer hasn't be reached yet):
+    - `let result = 1;`
+    - `let counter = 0;`
+    - ` while (counter < 10) {`
+    -   `result = result * 2;`
+    -   `counter = counter + 1;`
+    - `}`
+    - `console.log(result);`
+  - The author points out that the counter could start at 1 and continued until it was less than or equal to 10, but mentions it's better to start at 0 and covered in Chapter 4.
+- Another way to repeat code is by using the `do` loop, which always executes code at least one time and tests whether it will stop only after the code runs the first time. The testing condition appears after the body's loop, seen in the example below (forces the user to write a name until the string isn't empty; the use of the `!` operator converts the value to a Boolean before having it become negated):
+  - `let yourName;`
+  - `do {`
+    - `yourName = prompt("Who are you?");`
+    - `} while(!yourName);`
+    - `console.log(yourName);`
+- ***Identing Code***
+  - The author comments that in previous examples, he added spaces before some statements that are included in programs that have functions. He mentions these are optional and users could easily write the code without them or linebreaks if they wished. The purpose of including these spaces is to make it easier to find specific statements. The specific number of spacing doesn't matter as long as it's consistent with each function declaration. Many programming editors automatically do this.
+- ***For Loops***
+  - Loops usually are similar to what's shown in `while` - create a counter binder for progress tracking; a `while` loop to see if the counter has reached the end; and updating the counter after it has finished checking. This is why many languages, including JavaScript, have made a concise loop, `for`:
+    - `for (let number = 0; number <= 12; number = number + 2) {`
+      - `console.log(number);`
+    - `}`;
+  - This example is similar to the loop that printed even numbers except that the loop statements are included after declaring `for`.
+  - Note that conditions included in the () of `for` need to include the `;` to separate the loop initialization; the condition that checks if the loop repeats; and whether the loop updates.
