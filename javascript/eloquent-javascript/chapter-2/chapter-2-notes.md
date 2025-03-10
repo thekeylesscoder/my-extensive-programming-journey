@@ -100,4 +100,11 @@
       - `console.log(number);`
     - `}`;
   - This example is similar to the loop that printed even numbers except that the loop statements are included after declaring `for`.
-  - Note that conditions included in the () of `for` need to include the `;` to separate the loop initialization; the condition that checks if the loop repeats; and whether the loop updates.
+  - Note that conditions included in the () of `for` need to include the `;` to separate the loop initialization; the condition that checks if the loop repeats; and whether the loop updates. An updated example of 2 raised to the 10th power is included below using `while`:
+    - `let result = 1;`
+    - `for (let counter = 0; counter < 10; counter = counter + 1) {`
+      - ` result = result * 2;`
+    - `}`
+    - `console.log(result);`
+- ***Breaking Out of a Loop***
+  - The only way to do this based on how the loop works is when the condition is false. Otherwise, the `break` statement can be used to get out of the loop instantaneously.    
