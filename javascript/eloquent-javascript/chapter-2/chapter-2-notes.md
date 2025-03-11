@@ -107,4 +107,22 @@
     - `}`
     - `console.log(result);`
 - ***Breaking Out of a Loop***
-  - The only way to do this based on how the loop works is when the condition is false. Otherwise, the `break` statement can be used to get out of the loop instantaneously.    
+  - The only way to do this based on how the loop works is when the condition is false. Otherwise, the `break` statement can be used to get out of the loop instantaneously. An example is included below, where the code gets out of the loop for the first number that's divisible by 7 and greater than or equal to 20 (the number would be 21).
+    - `for (let current = 20; ; current = current+1) {`
+    -   `if (current % 7 == 0) {`
+      - `console.log(current);`
+      - `break;`
+      - `}`
+    - `}`
+  - `}`
+  - The remainder operator, used in the program, is `%`, and helps test whether a number is divisible by another.
+  - Note that the second condition is blank, so the loop continues until the `break` runs. Since the former doesn't include a condition, and if the break statement wasn't included in the program, it would be stuck in an *infinite loop* and never stop running.
+  - A similar keyword to `break` is `continue`, which jumps out of the body code and goes into the next looping of code.
+- ***Updating Bindings Succinctly***
+  - There's a shorthand way to update bindings. Previous examples have shown this as `counter = counter + 1;` but can instead be written as `counter += 1;`. Note this can be used for the `*` and `-` operators as well. Similarly, `counter += 1` and `counter -= 1` can be written as `counter++` and `counter--`, respectively.
+- ***Dispatching On A Value with Switch***
+  - Some code will have multiple `else if` statements, as seen below:
+    - `if (x == "value1") action1();`
+    - `else if (x == "value2") action2();`
+    - `else is (x == "value3") action3();`
+    - `else defaultAction();`     
