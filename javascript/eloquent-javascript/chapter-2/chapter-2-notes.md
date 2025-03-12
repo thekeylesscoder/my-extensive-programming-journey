@@ -125,4 +125,20 @@
     - `if (x == "value1") action1();`
     - `else if (x == "value2") action2();`
     - `else is (x == "value3") action3();`
-    - `else defaultAction();`     
+    - `else defaultAction();`
+  - The same code can be expressed more directly using a construct, `switch`, even if it seems more awkward (its structure is based on the way it's written in C and Java):
+    - `switch (prompt("What is the weather like?")) {`
+      - `case "rainy":`
+        - `console.log("Remember to bring an umbrella.");`
+        - `break;`
+      - `case "sunny":`
+        - `console.log("Dress lightly.");`
+      - `case "cloudy":`
+        - `console.log("Go outside.");`
+        - `break;`
+      - `default:`
+        - `console.log("Unknown weather type!");`
+        - `break;`
+      - `}`
+    - There's no limit to `case` values that can be included within the brackets. The initial value that will be shown is either the assigned `switch` value or `default` is nothing is found and continues executing until `break` is reached. Some code might be shared within cases, such as the sunny and cloudy cases going outside. The author warns to be mindful of forgetting breaks and causing the program to execute unwanted code.
+  - ***Capitalization*** 
