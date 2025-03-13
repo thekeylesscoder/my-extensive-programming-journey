@@ -141,4 +141,12 @@
         - `break;`
       - `}`
     - There's no limit to `case` values that can be included within the brackets. The initial value that will be shown is either the assigned `switch` value or `default` is nothing is found and continues executing until `break` is reached. Some code might be shared within cases, such as the sunny and cloudy cases going outside. The author warns to be mindful of forgetting breaks and causing the program to execute unwanted code.
-  - ***Capitalization*** 
+- ***Capitalization***
+    - When it comes to naming variables, it's normal to use multiple words to describe it. The following three styles are common naming conventions:
+      - `myfirstvariable` (can potentially be hard to read)
+      - `my_first_variable` (clearer to read but the author points out it may potentially be a nuisance to type out)
+      - `MyFirstVariable`
+      - `myFirstVariable` (functions and most programmers write their variables like this)
+    - Sometimes (including the previously used Number function) the first word uses capitalization to let those viewing the code that it is a constructor (later defined in Chapter 6).
+- ***Comments***
+  - Whether your code's context is not clear enough when read alone, or if you want to add on some other notes about what is it or does, you can add *comments*.
