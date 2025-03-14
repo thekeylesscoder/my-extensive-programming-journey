@@ -149,4 +149,27 @@
       - `myFirstVariable` (functions and most programmers write their variables like this)
     - Sometimes (including the previously used Number function) the first word uses capitalization to let those viewing the code that it is a constructor (later defined in Chapter 6).
 - ***Comments***
-  - Whether your code's context is not clear enough when read alone, or if you want to add on some other notes about what is it or does, you can add *comments*.
+  - Whether your code's context is not clear enough when read alone, or if you want to add on some other notes about what is it or does, you can add *comments*, lines of text that the program ignores and doesn't execute.
+  - There are two ways to comment code: using the single line version, `//`, or the multi-line one, `/* */`, in case it expands longer than a single line.
+- ***Summary***
+  - Programs are built on statements, which can also include substatements within, and expressions, which can have subexpressions.
+  - Statements included in a top-down order are executed in this manner. In order to change the control flow of the program, you can use `if`, `else`, or `switch` conditions and `while, do, for` loops.
+  - Bindings can be used to save data for future use or to track a state. If someone refer to an environment, it means the bindings that have already been defined. JavaScript includes a default value of these bindings for your convenience.
+  - Functions enclose parts of your program and can be called by including the function's name, along with its arguments, in parentheses (`functionName(argumentN, argumentN-1). This expression might produce a value, but may not always do so.
+- ***Exercises***
+  - To put our JavaScript knowledge to the test, the author includes exercises. My solutions can be seen in the previous directory under similar names of the following sections:
+    - ***Looping a Triangle***
+      - Loop the console.log function seven times to produce a triangle seen below:
+        -  #
+        -  ##
+        -  ###
+        -  ####
+        -  #####
+        -  ######
+        -  #######
+      - He provides a helpful hint in case the length of the string needs to be checked by using `.length`. 
+    - ***FizzBuzz***
+      - Use `console.log` to print numbers from 1 to 100 except for the following cases:
+        - Print `"Fizz"` instead of a number when it's divisible by 3.
+        - Print `"Buzz"` when it is divisible by 5 only. 
+    - ***Chessboard***
