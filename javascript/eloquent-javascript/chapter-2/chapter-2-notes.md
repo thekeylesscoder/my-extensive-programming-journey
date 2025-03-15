@@ -170,6 +170,14 @@
       - He provides a helpful hint in case the length of the string needs to be checked by using `.length`. 
     - ***FizzBuzz***
       - Use `console.log` to print numbers from 1 to 100 except for the following cases:
-        - Print `"Fizz"` instead of a number when it's divisible by 3.
-        - Print `"Buzz"` when it is divisible by 5 only. 
+        - Print `"Fizz"` instead of a number when it's divisible by 3, and `"Buzz"` when it is divisible by 5 only.
+        - Once these are correctly functioning, modify the program so `"FizzBuzz"` displays on numbers divisible by both 3 and 5. x
     - ***Chessboard***
+      - `# # # #`
+      - ` # # # # `
+      -  `# # # #`
+      -  `# # # # `
+      -   `# # # #`
+      -   `# # # # `
+      -   `# # # #`
+      -   `# # # #`
