@@ -173,6 +173,7 @@
         - Print `"Fizz"` instead of a number when it's divisible by 3, and `"Buzz"` when it is divisible by 5 only.
         - Once these are correctly functioning, modify the program so `"FizzBuzz"` displays on numbers divisible by both 3 and 5. x
     - ***Chessboard***
+      - The program should output strings that look like a chessboard, separating lines with the newline character. The grid should have either a space or a hash (example included below). Once this initial program works, define a binding, `size`, with the value 8 so it can work for a "chessboard" of any size.   
       - `# # # #`
       - ` # # # # `
       -  `# # # #`
