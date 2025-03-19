@@ -160,13 +160,13 @@
   - To put our JavaScript knowledge to the test, the author includes exercises. My solutions can be seen in the previous directory under similar names of the following sections:
     - ***Looping a Triangle***
       - Loop the console.log function seven times to produce a triangle seen below:
-        -  #
-        -  ##
-        -  ###
-        -  ####
-        -  #####
-        -  ######
-        -  #######
+        - `#`
+        - `##`
+        - `###`
+        - `####`
+        - `#####`
+        - `######`
+        - `#######`
       - He provides a helpful hint in case the length of the string needs to be checked by using `.length`. 
     - ***FizzBuzz***
       - Use `console.log` to print numbers from 1 to 100 except for the following cases:
