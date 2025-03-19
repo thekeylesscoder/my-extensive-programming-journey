@@ -39,7 +39,7 @@
   - The `console.log` name includes a period because it is a binding known as `console` that finds a `log` property. This is further discussed in Chapter 4 and this syntax is not allowed for regular bindings.
 - ***Return Values***
   - Things that are shown or happen are known as *side effects*, which can be helpful.
-    - Example: `console.log(Math.max(2,4) \\returns largest value`
+    - Example: `console.log(Math.max(2,4)) \\returns largest value`
   - The value that is ultimately shown is *returned*.
   - Chapter 3 will go more into creating our own functions.
 - ***Control Flow***
