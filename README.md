@@ -1,5 +1,5 @@
 # My Extensive Programming Journey
-Referencing all programming book practices I've completed. Books are grouped by language rather than the fields they're traditionally used (such as web or software development) for ease of access. 
+Referencing all programming book and online tutorial practices I've completed. Resources are grouped by language rather than the fields they're traditionally used (such as web or software development) for ease of access. 
 
 ## Coldfusion
 
