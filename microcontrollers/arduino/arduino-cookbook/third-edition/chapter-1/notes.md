@@ -6,3 +6,10 @@
   - [Arduino forums]([https://forum.arduino.cc/)
   - [O'Reilly tutorials](https://docs.arduino.cc/tutorials/)
   - [Project hub](https://projecthub.arduino.cc/)
+
+### Arduino Hardware
+- [PRJC Teensy and Teensy++](https://www.pjrc.com/teensy/)
+- Additional Third-Party Hardware
+  -  [Adafruit Industries](https://www.adafruit.com/)
+  -  [Arduino specific products from SparkFun](https://www.sparkfun.com/catalogsearch/result/?q=arduino)
+  -  [Seeed Studio](https://www.seeedstudio.com/) and their [Grove board](https://wiki.seeedstudio.com/Grove_System/)
