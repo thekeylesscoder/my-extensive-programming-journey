@@ -16,3 +16,6 @@
 
 ### Acknowledgments for the Second Edition (Michael Margolis)
   - *Programming Interactivity*, Joshua Noble
+
+### Additional Resources (Not From Book)
+- [Alt Codes copyright symbol](https://www.alt-codes.net/copyright_alt_code.php)
