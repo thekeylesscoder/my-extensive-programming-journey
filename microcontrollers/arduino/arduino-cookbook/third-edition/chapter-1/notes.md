@@ -13,3 +13,5 @@
   -  [Adafruit Industries](https://www.adafruit.com/)
   -  [Arduino specific products from SparkFun](https://www.sparkfun.com/catalogsearch/result/?q=arduino)
   -  [Seeed Studio](https://www.seeedstudio.com/) and their [Grove board](https://wiki.seeedstudio.com/Grove_System/)
+- [Arduino compatible boards, Wikipedia](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_system)
+- [Arduino boards](https://www.arduino.cc/en/hardware/)  
