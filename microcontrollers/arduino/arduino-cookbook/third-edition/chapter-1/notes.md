@@ -15,3 +15,7 @@
   -  [Seeed Studio](https://www.seeedstudio.com/) and their [Grove board](https://wiki.seeedstudio.com/Grove_System/)
 - [Arduino compatible boards, Wikipedia](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_system)
 - [Arduino boards](https://www.arduino.cc/en/hardware/)  
+
+## 1.1 Installing the Integrated Development Environment (IDE)
+- [Arduino IDE software download](www.arduino.cc/download)
+- [Arduino first use guides](https://www.arduino.cc/en/Guide/)
