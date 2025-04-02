@@ -17,5 +17,9 @@
 - [Arduino boards](https://www.arduino.cc/en/hardware/)  
 
 ## 1.1 Installing the Integrated Development Environment (IDE)
-- [Arduino IDE software download](www.arduino.cc/download)
-- [Arduino first use guides](https://www.arduino.cc/en/Guide/)
+- Windows
+  - Note - these resources work regardless of the OS your computer is running.  
+  - [Arduino IDE software download](www.arduino.cc/download)
+  - [Arduino first use guides](https://www.arduino.cc/en/Guide/)
+- Mac
+  - [D2XX Drivers](https://ftdichip.com/drivers/d2xx-drivers/) from FDTI
