@@ -22,4 +22,18 @@
   - [Arduino IDE software download](www.arduino.cc/download)
   - [Arduino first use guides](https://www.arduino.cc/en/Guide/)
 - Mac
-  - [D2XX Drivers](https://ftdichip.com/drivers/d2xx-drivers/) from FDTI
+  - [D2XX Drivers](https://ftdichip.com/drivers/d2xx-drivers/) from FDTI (earlier boards may need them)
+- Linux
+  - [Arduino's guide to install on Linux devices](https://www.arduino.cc/en/guide/linux)
+- Discussion
+  - [Arduino's support page for troubleshooting and additional help](https://support.arduino.cc/hc/en-us)
+- See Also
+  - Getting Started
+    - [Windows](https://docs.arduino.cc/software/ide-v1/tutorials/Windows/)
+    - [Mac](https://docs.arduino.cc/software/ide-v1/tutorials/macOS/)
+    - [Linux](https://docs.arduino.cc/software/ide-v1/tutorials/Linux/)
+    - [Arduino Pro IDE](https://github.com/arduino/arduino-pro-ide) for professionals - now readonly
+    - [Arduino CLI](https://github.com/arduino/arduino-cli) for sketches
+    - [Arduino Create](https://login.arduino.cc/login?state=hKFo2SBuVlpYeTQ2emVKc1pFSkQxNmZEZjRnS2poZGRoNzNiQ6FupWxvZ2luo3RpZNkgSnE4YVlxMHU1UUNfRmNoSFp4VVFFUGU3ejNpNkZpM1CjY2lk2SBlOXFpcEEyTjBrOVA4dnZyZTlmZEdjNnU5S2w5ZUhTUA&client=e9qipA2N0k9P8vvre9fdGc6u9Kl9eHSP&protocol=oauth2&scope=openid+profile+email&redirect_uri=https%3A%2F%2Fapp.arduino.cc&response_type=code&response_mode=query&nonce=VFZBaHZOZ2hTMEFaWkdQRjNOSDQyRHpZZmRhOVpqT1dNSGpjREVBN2NXcw%3D%3D&code_challenge=FloTMXabudVInneZ-kUxZoBB1U7xXiRUkJVmLDALPq4&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjIuMS4zIn0%3D#/sso/login) online IDE; requires an account and plugin
+    - Arduino Create Chrome App on Chromebook - requires monthly $1 USD subscription, but limited trial available
+    - [Bender](https://edu.codebender.cc/) - web IDE that can work with third party boards that work with Arduino
