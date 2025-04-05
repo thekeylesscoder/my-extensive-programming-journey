@@ -11,3 +11,6 @@
 
 ## Outdated Resources
 - [Svelte template - now readonly](https://github.com/sveltejs/template)
+
+## Miscellaneous Sources
+- [Svelte Society resources to learn](https://www.sveltesociety.dev/resources)
