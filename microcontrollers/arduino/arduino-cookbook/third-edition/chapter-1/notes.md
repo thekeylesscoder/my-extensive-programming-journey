@@ -40,3 +40,4 @@
     
   ## 1.5 Creating and Saving a Sketch
     - [Atlassian's guide to installing Git on Mac](https://www.atlassian.com/git/tutorials/install-git)
+    - [Git documentation](https://git-scm.com/doc)
