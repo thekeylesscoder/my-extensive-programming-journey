@@ -41,3 +41,6 @@
   ## 1.5 Creating and Saving a Sketch
     - [Atlassian's guide to installing Git on Mac](https://www.atlassian.com/git/tutorials/install-git)
     - [Git documentation](https://git-scm.com/doc)
+
+ ## 1.7 Using Arduino with Boards Not Included in the Standard Distribution
+   - [Teensyduino - Teensy Arduino package](https://www.pjrc.com/teensy/td_download.html) 
