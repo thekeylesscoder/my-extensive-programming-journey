@@ -42,5 +42,8 @@
     - [Atlassian's guide to installing Git on Mac](https://www.atlassian.com/git/tutorials/install-git)
     - [Git documentation](https://git-scm.com/doc)
 
- ## 1.7 Using Arduino with Boards Not Included in the Standard Distribution
-   - [Teensyduino - Teensy Arduino package](https://www.pjrc.com/teensy/td_download.html) 
+   ## 1.7 Using Arduino with Boards Not Included in the Standard Distribution
+     - [Teensyduino - Teensy Arduino package](https://www.pjrc.com/teensy/td_download.html)
+
+   ## 1.8 Using a 32-Bit Arduino (or Compatible)
+     - [SparkFun's Arduino Board Management Add-Ons](https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager)
