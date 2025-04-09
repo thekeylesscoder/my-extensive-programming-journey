@@ -46,4 +46,6 @@
      - [Teensyduino - Teensy Arduino package](https://www.pjrc.com/teensy/td_download.html)
 
    ## 1.8 Using a 32-Bit Arduino (or Compatible)
-     - [SparkFun's Arduino Board Management Add-Ons](https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager)
+     - [SparkFun's Arduino Board Management Add-Ons](https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager) 
+     - [Adafruit Third Party Add-On](https://learn.adafruit.com/add-boards-arduino-v164/setup)
+     - [Arduino Zero getting started guide](https://docs.arduino.cc/hardware/zero/)
