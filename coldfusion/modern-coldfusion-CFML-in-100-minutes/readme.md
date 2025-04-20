@@ -8,3 +8,6 @@ Learning Coldfusion through the open source version of the book. Title found fro
 
 ### ColdFusion vs CFML
 - These two terms aren't interchangable. The language is the latter and stands for ColdFusion Markup Language. The former is the server, framework or platform where the code is executed on (more information, and the link that the author bases his definition on, can be found at Differences Between's ["Difference Between CFML and ColdFusion"](https://www.differencebetween.net/technology/communication-technology/difference-between-cfml-and-coldfusion/).
+
+## [About This Book](https://github.com/ortus-docs/Modern-ColdFusion-CFML-In-100-Minutes)
+- The book can be found on [GitHub](https://github.com/ortus-docs/Modern-ColdFusion-CFML-In-100-Minutes).
