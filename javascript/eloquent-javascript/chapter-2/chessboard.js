@@ -25,15 +25,16 @@ for (size; size <= 7; size++) {
   else console.log("# # # # ");
 }
 
-// Modified program - needs work
+// Modified program - prints out one row then stops. Need to further modify.
 
 let size = 8;
-while (size <= 0) {
+
+for (size; size >= 0; size++) {
   if (size % 2 == 0) {
-    console.log(" # # # #\n");
+  console.log(" # # # #\n");
+    }
+  else if (size % 2 == 1) {
+    console.log("# # # # ");
   }
-  else if (size % 3 ==1) {
-    console.log("# # # #\n");
-  }
-  else if (size == 0) break;
+  break;
 }
