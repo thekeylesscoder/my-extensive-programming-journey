@@ -7,7 +7,28 @@ Print all numbers between 1 to 100 using console.log except in the following cas
 Afterwards, modify the program to print "FizzBuzz" for numbers divisible by both 3 and 5.
 */
 
-let count = 0;
+// Need to find a way to combine the two together and confirm it's showing correctly.
+
+// "Fizz" Program
+let count = 1;
+for (count; count <= 100; count++) {
+  if (count % 3 == 0) {
+  console.log("Fizz");
+  }
+  else { console.log(count)};
+}
+
+// "Buzz" Program
+let count = 1;
+for (count; count <= 100; count++) {
+  if (count % 5 == 0) {
+  console.log("Buzz");
+  }
+  else console.log(count);
+}
+
+// "Fizz" + "Buzz" Program - in progress
+/* let count = 1;
 for (count; count <= 100; count++) {
   if (count % 3 != 0 && count % 5 != 0) {
     console.log(count);
@@ -21,4 +42,4 @@ for (count; count <= 100; count++) {
  else if (count % 3 == 0 && count % 5 == 0) {
     console.log("FizzBuzz");
   }
-}
+}*/
