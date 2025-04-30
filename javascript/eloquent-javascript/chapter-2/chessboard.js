@@ -30,11 +30,15 @@ for (size; size <= 7; size++) {
 let size = 8;
 
 for (size; size >= 0; size++) {
+ /* This code alone causes the program to potentially get stuck in an infinite loop and doesn't execute anything. 
+ Simply reversing the logic causes the same issue.*/ 
+ 
   if (size % 2 == 0) {
   console.log(" # # # #\n");
     }
   else if (size % 2 == 1) {
     console.log("# # # # ");
   }
+ // The break statement needs additional input which is what causes it to only display one line.
   break;
 }
