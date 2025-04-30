@@ -1,6 +1,5 @@
 # Additional Coldfusion Resources
 
-## [HotScripts book list](https://www.hotscripts.com/category/scripts/cfml/programming-books/)
 ## [Maryland Coldfusion User's Group](https://www.mdcfug.com/books/bookusers/)
 ## [Reddit - Coldfusion newbie need help](https://www.reddit.com/r/coldfusion/comments/16gbuv5/coldfusion_newbie_need_help/)
 - [Adobe ColdFusion playlist - some videos need to be found](https://www.youtube.com/watch?v=9viMI8f4myM&feature=youtu.be&themeRefresh=1)
