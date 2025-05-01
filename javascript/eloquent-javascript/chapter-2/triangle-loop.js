@@ -16,8 +16,7 @@ Haverbeke gives a hint to use the .length attribute for any string.
 
 let counter = 0;
 let hashtagCount = "#";
-while (counter <= 7) {
+while (counter < 7) {
   counter++;
-  console.log(hashtagCount);
-  console.log("/n");
+  console.log(counter + "/n");
 }
