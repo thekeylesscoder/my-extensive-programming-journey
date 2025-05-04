@@ -18,5 +18,23 @@ let counter = 0;
 let hashtagCount = "#";
 while (counter < 7) {
   counter++;
-  console.log(counter + "/n");
+  if (counter == 1) {
+    console.log("#/n");
+  }
+  else if (counter == 2) {
+    console.log("##/n");
+  }
+  else if (counter == 3) {
+    console.log("###/n");
+  }
+  else if (counter == 4) {
+    console.log("####/n");
+  }
+  else if (counter == 5) {
+    console.log("#####/n");
+  }
+  else if (counter == 6) {
+    console.log("######/n");
+  }
+  else console.log("#######/n");
 }
