@@ -18,6 +18,20 @@ for (count; count <= 100; count++) {
   else { console.log(count)};
 }
 
+
+/* Needs work but potentially this logic for the correct "Buzz" printouts?
+
+let count = 1;
+for (count; count <= 100; count++) {
+  if (count % 3 == 0 && count % 5 == 0) {
+  console.log("Fizz");
+  }
+  else console.log(count);
+}
+
+*/
+
+
 // "Buzz" Program
 let count = 1;
 for (count; count <= 100; count++) {
