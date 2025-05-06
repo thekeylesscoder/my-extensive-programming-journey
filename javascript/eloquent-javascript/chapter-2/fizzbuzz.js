@@ -9,51 +9,18 @@ Afterwards, modify the program to print "FizzBuzz" for numbers divisible by both
 
 // Need to find a way to combine the two together and confirm it's showing correctly.
 
-// "Fizz" Program
-let count = 1;
-for (count; count <= 100; count++) {
-  if (count % 3 == 0) {
-  console.log("Fizz");
-  }
-  else { console.log(count)};
-}
-
-
-/* Needs work but potentially this logic for the correct "Buzz" printouts?
+// May need to double check but potentially correct output.
 
 let count = 1;
 for (count; count <= 100; count++) {
   if (count % 3 == 0 && count % 5 == 0) {
-  console.log("Fizz");
+    console.log("FizzBuzz");
   }
-  else console.log(count);
-}
-
-*/
-
-
-// "Buzz" Program
-let count = 1;
-for (count; count <= 100; count++) {
-  if (count % 5 == 0) {
+  else if (count % 3 == 0) {
+    console.log("Fizz");
+  }
+  else if (count % 5 == 0) {
   console.log("Buzz");
   }
   else console.log(count);
 }
-
-// "Fizz" + "Buzz" Program - in progress
-/* let count = 1;
-for (count; count <= 100; count++) {
-  if (count % 3 != 0 && count % 5 != 0) {
-    console.log(count);
-  }
-  else if (count % 3 == 0) {
-  console.log("Fizz");
-  }
-  else if (count % 5 == 0) {
-    console.log("Buzz");
-  }
- else if (count % 3 == 0 && count % 5 == 0) {
-    console.log("FizzBuzz");
-  }
-}*/
