@@ -42,3 +42,11 @@ for (size; size >= 0; size++) {
  // The break statement needs additional input which is what causes it to only display one line.
   break;
 }
+
+// Version 3 - variables for strings
+
+let size = 8;
+let lightSpace = " # # # #";
+let darkSpace = "# # # # ";
+
+
