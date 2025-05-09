@@ -43,10 +43,22 @@ for (size; size >= 0; size++) {
   break;
 }
 
-// Version 3 - variables for strings
+// Version 3 - variables for strings. Causing an infinite loop so need to rework this.
 
 let size = 8;
 let lightSpace = " # # # #";
 let darkSpace = "# # # # ";
+
+for (size; size <= 0; size++) {
+ if (size % 2 == 0) {
+  console.log(lightSpace);
+ }
+ else if (size % 2 == 1) {
+  console.log(darkSpace);
+ }
+ else if (size == 0) {
+  break;
+ }
+}
 
 
