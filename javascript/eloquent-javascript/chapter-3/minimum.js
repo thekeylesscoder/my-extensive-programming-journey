@@ -3,7 +3,7 @@ function returnMinimum() {
    // First and second user values; undeclared
   let value1;
   let value2;
-  // Need to add restrictions that ensure that only numbers and no other characters are included here
+  // Restriction found from Chapter 2 - the Number function. eed to add restrictions that ensure that only numbers and no other characters are included here
   console.log("Please input your first number: ");
   prompt(value1);
   console.log("Please input your second number: ");
