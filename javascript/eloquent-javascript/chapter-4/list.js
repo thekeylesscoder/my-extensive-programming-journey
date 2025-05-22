@@ -1,0 +1,1 @@
+// Write a program that has a function with a list structure; one that uses a list to make an array, with helper function that can take an element and make a new list to the front, also insuring zero or null if no value present; and recursion.
