@@ -3,8 +3,8 @@
 function isEven() {
   let positiveWholeNumber;
   let boolean;
-  prompt("Enter a whole number (no negatives): ");
-  
+  console.log("Enter a whole number (no negatives): ");
+  //Ensure the input is a number - need to ensure that it becomes positive
 }
 console.log(isEven(50));
 console.log(isEven(75));
