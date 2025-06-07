@@ -4,7 +4,6 @@ function isEven() {
   //Ensures the bindings are numbers and Booleans.
   let Number(positiveWholeNumber);
   let Boolean(boolean);
-  console.log("Enter a whole number (no negatives): ");
   //Ensure the input is a number - need to ensure that it becomes positive
     /*
   if (positiveWholeNumber %% 2 = 0) {
