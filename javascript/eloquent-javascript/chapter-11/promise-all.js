@@ -1,0 +1,1 @@
+// Build a function, "Promise_all", that takes an array of promises and returns one that waits for all to complete. It should have two outputs - success returns an array of the values, while a failure returns the failed values and the reason. Regardless of the outcome, any later calls should not result in it running again.
