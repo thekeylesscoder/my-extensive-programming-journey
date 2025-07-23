@@ -1,0 +1,1 @@
+// Model a program similar to video games where the user has a limited number of lives (3) and subtract a life even time the character dies. The game restarts at the start. Show the current number of lives with console.log when a level starts.
