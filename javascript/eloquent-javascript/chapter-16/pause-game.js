@@ -1,0 +1,1 @@
+// Write a function that pauses or starts the game when the user hits the Escape button. The exercise gives tips that allows the keyboard handler to use another event handler to complete this task, using runLevel and runAnimation (by rearranging elements in the former). Later modify trackKeys to unregister and register them to stop working when the game isn't running.
