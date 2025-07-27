@@ -1,1 +1,1 @@
-# [Angular Projects by Aristeidis Bampakos]([https://www.amazon.com/Angular-Projects-exploring-cutting-edge-technologies-ebook/dp/B08XXNBKNP/ref=sr_1_1?crid=31RXOUJFWDBH7&dib=eyJ2IjoiMSJ9.bwcRq504BQ8sN6I1xoMRKA.8-_weU0yf2FSVbg3gGFtC99X2nNRbLDV1HPK1316Zck&dib_tag=se&keywords=978-1800206960&qid=1753638164&s=books&sprefix=978-1800206960%2Cstripbooks%2C113&sr=1-1](https://www.oreilly.com/library/view/angular-projects/9781800205260/))
+# [Angular Projects by Aristeidis Bampakos](https://www.oreilly.com/library/view/angular-projects/9781800205260/)
