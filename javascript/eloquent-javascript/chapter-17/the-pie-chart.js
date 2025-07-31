@@ -1,0 +1,1 @@
+// Modify a previously included example of a pie chart so the name of every category is shown by the appropriate slice. Find a way to to position the titles that would work for other data sets. Categories should be big enough to have enough space for the labels. The author provides tips for Math libraries that were discussed in Chapter 14.
