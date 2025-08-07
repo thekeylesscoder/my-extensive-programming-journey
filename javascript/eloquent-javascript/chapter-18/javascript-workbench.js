@@ -1,0 +1,1 @@
+// This program should let people type and run JavaScript on an interface. Use a button near the <textarea> to call function from wrapped text. Return the function's values or errors as a string and show it underneath.
