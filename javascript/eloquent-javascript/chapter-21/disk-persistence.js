@@ -1,0 +1,1 @@
+/* The original server saves data in memory, so anytime it crashes or restarts, all content is lost. The server should store talk data onto the disk and reload automatically when restarted. Use the simplest method and don't focus on the most efficient method. */
