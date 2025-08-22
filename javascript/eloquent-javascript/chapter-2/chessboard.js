@@ -14,19 +14,6 @@ Program must display 8x8 grid display with newline characters separating lines a
 Afterwards, make a variable (or binding) size = 8 and modify the display so it works for any size.
 */ 
 
-// Initial program - correctly displays chessboard style
-
-let size = 0;
-
-for (size; size <= 7; size++) {
-  if (size % 2 == 0) {
-  console.log(" # # # #\n");
-    }
-  else console.log("# # # # ");
-}
-
-// Final program
-
 let size = 8;
 let lightSpace = " # # # #";
 let darkSpace = "# # # # ";
