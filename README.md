@@ -18,3 +18,5 @@ Referencing all programming book and online tutorial practices I've completed. A
 ## Online Resources 
 
 ### Monday.com
+
+### [W3Schools](https://www.w3schools.com/)
