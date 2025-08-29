@@ -1,5 +1,7 @@
 # Svelte Resources
 
+## [Official Documentation](https://svelte.dev/docs/svelte/overview)
+
 ## JavaScript
 - [Rollup - JavaScript module bundler](https://rollupjs.org/)
 
