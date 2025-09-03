@@ -1,2 +1,2 @@
-# Resource
-- [Official site](https://angular.dev/)
+# Resources
+- [Official documentation](https://angular.dev/overview)
