@@ -1,1 +1,2 @@
-# [Brave Search API Main Link](https://brave.com/search/api/)
+# Resources
+- [Brave Search API Main Link](https://brave.com/search/api/)
