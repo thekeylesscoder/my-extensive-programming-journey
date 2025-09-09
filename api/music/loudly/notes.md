@@ -1,1 +1,2 @@
-# [Link](https://www.loudly.com/music-api)
+# Resources 
+- [Official documentation](https://www.loudly.com/music-api)
