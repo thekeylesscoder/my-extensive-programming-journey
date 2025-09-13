@@ -1,2 +1,2 @@
 # Resources
--[Documentation page](https://docs.indeed.com/)
+- [Documentation page](https://docs.indeed.com/)
