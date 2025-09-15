@@ -1,1 +1,2 @@
-# [Official Bubble Documentation](https://bubble.io/)
+# Resources
+- [Official Bubble Documentation](https://bubble.io/)
