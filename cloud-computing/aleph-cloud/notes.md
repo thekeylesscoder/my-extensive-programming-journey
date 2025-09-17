@@ -1,1 +1,2 @@
-# [Aleph Cloud](https://aleph.cloud/)
+# Resources
+- [Website](https://aleph.cloud/)
