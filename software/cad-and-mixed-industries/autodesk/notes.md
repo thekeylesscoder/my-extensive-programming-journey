@@ -1,4 +1,5 @@
 # Resources
+- [Autodesk homepage](https://www.autodesk.com/)
 - [Courses list](https://area.autodesk.com/learn/courses/)
 - [Certifications](https://www.autodesk.com/certification/overview#AutodeskCertifications)
   
