@@ -1,1 +1,2 @@
-# [Firespring](https://firespring.com/)
+# Resources
+- [Homepage](https://firespring.com/)
